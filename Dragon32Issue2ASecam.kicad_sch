@@ -891,6 +891,16 @@
 	)
 	(bus
 		(pts
+			(xy 95.25 59.69) (xy 95.25 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27855d13-1fcd-4cad-bcb4-061f099be826")
+	)
+	(bus
+		(pts
 			(xy 81.28 59.69) (xy 95.25 59.69)
 		)
 		(stroke
@@ -901,13 +911,13 @@
 	)
 	(bus
 		(pts
-			(xy 90.17 48.26) (xy 148.59 48.26)
+			(xy 90.17 48.26) (xy 90.17 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57e4ca56-45a1-473d-b51f-d86ddb0aa04f")
+		(uuid "3c5a2eb0-7915-422f-8c10-2e3864e6b2c9")
 	)
 	(bus
 		(pts
@@ -938,6 +948,16 @@
 			(type default)
 		)
 		(uuid "83b52a01-8ab9-4360-8b95-143857b55b57")
+	)
+	(bus
+		(pts
+			(xy 90.17 48.26) (xy 148.59 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d61618-634d-42c8-80df-6d40d03aa4f9")
 	)
 	(bus
 		(pts
@@ -1605,6 +1625,64 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 68.58)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cfffe51f-d772-41c5-8c0f-0bae366ed2f9")
+		(property "Sheetname" "SAM"
+			(at 87.63 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sam.kicad_sch"
+			(at 87.63 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" output
+			(at 95.25 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4330122-2300-48c5-8c64-aded554604c0")
+		)
+		(pin "D[0..7]" bidirectional
+			(at 90.17 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76a21db1-017f-4c3c-8a28-e029c1571983")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb"
+					(page "5")
 				)
 			)
 		)

@@ -595,6 +595,10 @@
     [
       "5b9770a0-6732-4c8a-bbe3-d29e835dd343",
       "ROM"
+    ],
+    [
+      "cfffe51f-d772-41c5-8c0f-0bae366ed2f9",
+      "SAM"
     ]
   ],
   "text_variables": {}
