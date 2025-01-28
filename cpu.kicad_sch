@@ -4225,7 +4225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
 			(at 28.702 91.44 90)
 			(effects
 				(font
@@ -4657,7 +4657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
 			(at 165.1 105.41 0)
 			(effects
 				(font
@@ -4801,7 +4801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
 			(at 57.912 91.44 90)
 			(effects
 				(font
@@ -5571,7 +5571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
 			(at 172.085 99.441 0)
 			(effects
 				(font
@@ -5791,7 +5791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
 			(at 165.1 99.441 0)
 			(effects
 				(font
@@ -6039,7 +6039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
 			(at 178.943 99.441 0)
 			(effects
 				(font

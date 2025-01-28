@@ -1,4 +1,4 @@
-24613301662121520
+24616777787477530
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57029,6 +57029,13 @@ Button_AlpsAlpine_SPUN190900
 6
 6
 Dragon
+C_Radial_Special
+
+
+0
+4
+2
+Dragon
 DIN-5_DELTRON_671-0501_45deg_Horizontal
 DIN-5 45 degree
 
@@ -57070,6 +57077,13 @@ OJS HM 10A Relay
 0
 4
 4
+Dragon
+R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal
+Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
+0
+2
+2
 Dragon
 Trimmer-7.5mm
 
