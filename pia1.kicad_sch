@@ -10401,7 +10401,7 @@
 	(symbol
 		(lib_id "74xx:74LS02")
 		(at 112.395 41.91 0)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10506,7 +10506,7 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/47fda7cf-0c41-4ecf-b5e2-f0a02b8ccfcb"
 					(reference "IC31")
-					(unit 2)
+					(unit 3)
 				)
 			)
 		)

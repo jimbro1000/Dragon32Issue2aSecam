@@ -12544,10 +12544,10 @@
 			(uuid "2cdea361-3010-453c-a9e5-dbd0a799441b")
 		)
 		(pin "4"
-			(uuid "c4a12f01-4ba6-42d2-80a1-75baeb4aa98b")
+			(uuid "c4a12f01-4ba6-42d2-80a1-75baeb4aa98c")
 		)
 		(pin "8"
-			(uuid "70b689bc-d4c5-4962-9902-16e18860297c")
+			(uuid "70b689bc-d4c5-4962-9902-16e18860297d")
 		)
 		(instances
 			(project "Dragon32Issue2ASecam"
