@@ -10528,15 +10528,6 @@
 				(hide yes)
 			)
 		)
-		(property "SA2120" "Sheet 1"
-			(at 219.964 125.222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fa1cecc2-b843-4c9a-92e5-6117800ced84")
 		)
@@ -12144,15 +12135,6 @@
 			)
 		)
 		(property "DigiKey" "296-1627-5-ND"
-			(at 96.901 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SA2120" "Sheet 1"
 			(at 96.901 166.37 0)
 			(effects
 				(font
@@ -14643,15 +14625,6 @@
 			)
 		)
 		(property "DigiKey" "296-1627-5-ND"
-			(at 95.25 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SA2120" "Sheet 1"
 			(at 95.25 185.42 0)
 			(effects
 				(font

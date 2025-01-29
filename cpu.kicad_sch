@@ -2804,16 +2804,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 87.63) (xy 30.48 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c1fcf22-e0c5-44e7-960e-0109b81287c2")
-	)
-	(wire
-		(pts
 			(xy 73.66 97.79) (xy 59.69 97.79)
 		)
 		(stroke
@@ -2831,16 +2821,6 @@
 			(type default)
 		)
 		(uuid "9038d06e-74bc-4e6d-bb75-15345d88ff60")
-	)
-	(wire
-		(pts
-			(xy 30.48 95.25) (xy 30.48 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "934cdb89-e5b3-4782-9822-a8371e36961e")
 	)
 	(wire
 		(pts
@@ -3001,16 +2981,6 @@
 			(type default)
 		)
 		(uuid "bdb0a23c-bf6c-4ff0-b474-40d8406f2cac")
-	)
-	(wire
-		(pts
-			(xy 30.48 106.68) (xy 30.48 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bef58499-97a9-4045-96e3-d7626799b521")
 	)
 	(bus
 		(pts
@@ -4198,85 +4168,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 30.48 91.44 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "211a524f-3045-4189-be89-e47f06f87542")
-		(property "Reference" "R1"
-			(at 32.258 92.6084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 32.258 90.297 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 28.702 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 30.48 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "CF14JT100KCT-ND"
-			(at 30.48 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99391c99-6aa9-477b-a554-88737a383629")
-		)
-		(pin "2"
-			(uuid "e7b141d2-4f3c-40f4-921f-7a39de09c129")
-		)
-		(instances
-			(project "Dragon32Issue2ASecam"
-				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 78.74 86.36 0)
 		(unit 1)
@@ -5206,71 +5097,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 30.48 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a501f462-f3e0-4345-8c8a-409fc7d75274")
-		(property "Reference" "#PWR015"
-			(at 30.48 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 30.861 81.9658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5423b25-ef6b-439c-ba13-5ea6fa88c4b7")
-		)
-		(instances
-			(project "Dragon32Issue2ASecam"
-				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N914")
 		(at 73.66 92.71 90)
 		(unit 1)
@@ -5341,71 +5167,6 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 30.48 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a822e9ac-ccc4-4407-8665-9efe0b18a9c9")
-		(property "Reference" "#PWR019"
-			(at 30.48 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.607 111.0742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca86dd45-a3ef-4c4a-9573-32be8bd2ad0a")
-		)
-		(instances
-			(project "Dragon32Issue2ASecam"
-				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5928,84 +5689,6 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 30.48 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e55519e8-fd5a-4654-90b1-7bef7c081652")
-		(property "Reference" "C1"
-			(at 32.8168 101.7016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 32.8168 104.013 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "BC1101CT-ND"
-			(at 30.48 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf2af52f-a7aa-4951-878f-acd7a9aafb0d")
-		)
-		(pin "2"
-			(uuid "f053a334-8804-4280-95f2-7a8d1fed0074")
-		)
-		(instances
-			(project "Dragon32Issue2ASecam"
-				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
-					(reference "C1")
 					(unit 1)
 				)
 			)

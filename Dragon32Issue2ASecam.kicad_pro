@@ -599,6 +599,22 @@
     [
       "cfffe51f-d772-41c5-8c0f-0bae366ed2f9",
       "SAM"
+    ],
+    [
+      "b4e67e0f-d684-40e6-8411-582012d382bb",
+      "PIA0"
+    ],
+    [
+      "47fda7cf-0c41-4ecf-b5e2-f0a02b8ccfcb",
+      "PIA1"
+    ],
+    [
+      "92f4f63c-278c-488a-b182-7bfdf4d90c3e",
+      "VDG"
+    ],
+    [
+      "abc062f3-c6ab-4360-94b7-a88968b74324",
+      "Video"
     ]
   ],
   "text_variables": {}

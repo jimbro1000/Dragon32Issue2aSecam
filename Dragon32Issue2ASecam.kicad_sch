@@ -878,16 +878,51 @@
 		)
 	)
 	(junction
+		(at 129.54 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11cfad5c-3800-40d3-a509-ee3504559c91")
+	)
+	(junction
 		(at 95.25 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "209b0d55-ac46-4741-b664-b7eee618bda6")
 	)
 	(junction
+		(at 110.49 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8476eae-96e4-46df-aaec-934a177700ea")
+	)
+	(junction
+		(at 134.62 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba637758-7fae-4432-938d-4ab44d118998")
+	)
+	(junction
 		(at 90.17 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cee15fe4-989d-4b67-b4af-7407f754aae6")
+	)
+	(junction
+		(at 115.57 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5792e74-e286-454c-a9c7-1bbaef5698b8")
+	)
+	(bus
+		(pts
+			(xy 129.54 48.26) (xy 129.54 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 19 118 57 1)
+		)
+		(uuid "0b59c51b-f17d-4757-8a36-589dbc6f7b1b")
 	)
 	(bus
 		(pts
@@ -916,6 +951,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 19 118 57 1)
 		)
 		(uuid "3c5a2eb0-7915-422f-8c10-2e3864e6b2c9")
 	)
@@ -936,8 +972,40 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 19 118 57 1)
 		)
 		(uuid "5cd580d9-783d-4b9f-ad52-44c0806397d7")
+	)
+	(bus
+		(pts
+			(xy 134.62 41.91) (xy 134.62 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64682d55-4afb-4508-89a6-a83a0fa56b42")
+	)
+	(bus
+		(pts
+			(xy 115.57 59.69) (xy 134.62 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d66f75-412b-4ca8-b974-d2bd6b0589d1")
+	)
+	(bus
+		(pts
+			(xy 110.49 48.26) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 19 118 57 1)
+		)
+		(uuid "765e6672-e3f2-425b-a796-e5b756fa0b75")
 	)
 	(bus
 		(pts
@@ -946,22 +1014,66 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 19 118 57 1)
 		)
 		(uuid "83b52a01-8ab9-4360-8b95-143857b55b57")
 	)
 	(bus
 		(pts
-			(xy 90.17 48.26) (xy 148.59 48.26)
+			(xy 129.54 48.26) (xy 148.59 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 19 118 57 1)
+		)
+		(uuid "84742746-fe0a-4d75-8d54-d66cb1653c49")
+	)
+	(bus
+		(pts
+			(xy 90.17 48.26) (xy 110.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 19 118 57 1)
 		)
 		(uuid "84d61618-634d-42c8-80df-6d40d03aa4f9")
 	)
 	(bus
 		(pts
-			(xy 95.25 59.69) (xy 148.59 59.69)
+			(xy 115.57 41.91) (xy 115.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a68b98-dafd-4aa8-9577-97207805a8f4")
+	)
+	(bus
+		(pts
+			(xy 134.62 59.69) (xy 148.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79857b4-9d7f-40b9-9750-47e86467411d")
+	)
+	(bus
+		(pts
+			(xy 110.49 41.91) (xy 110.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 19 118 57 1)
+		)
+		(uuid "ca8efa13-6d67-4813-bf7b-095b105fae6f")
+	)
+	(bus
+		(pts
+			(xy 95.25 59.69) (xy 115.57 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1514,6 +1626,64 @@
 		)
 	)
 	(sheet
+		(at 125.73 26.67)
+		(size 12.7 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47fda7cf-0c41-4ecf-b5e2-f0a02b8ccfcb")
+		(property "Sheetname" "PIA1"
+			(at 125.73 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pia1.kicad_sch"
+			(at 125.73 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D[0..7]" bidirectional
+			(at 129.54 41.91 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f540c82-dc4d-49fa-9123-9b955bb732ac")
+		)
+		(pin "A[0..15]" output
+			(at 134.62 41.91 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d972397-ac90-4024-aaf3-ba5700d5bf2c")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 86.995 26.67)
 		(size 12.7 15.24)
 		(fields_autoplaced yes)
@@ -1625,6 +1795,140 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 68.58)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "92f4f63c-278c-488a-b182-7bfdf4d90c3e")
+		(property "Sheetname" "VDG"
+			(at 106.68 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vdg.kicad_sch"
+			(at 106.68 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 68.58)
+		(size 12.7 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abc062f3-c6ab-4360-94b7-a88968b74324")
+		(property "Sheetname" "Video"
+			(at 125.73 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "video.kicad_sch"
+			(at 125.73 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 26.67)
+		(size 12.7 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4e67e0f-d684-40e6-8411-582012d382bb")
+		(property "Sheetname" "PIA0"
+			(at 106.68 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pia0.kicad_sch"
+			(at 106.68 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D[0..7]" bidirectional
+			(at 110.49 41.91 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "995e6c9a-fde6-4eca-b2fb-0b7c1f9d85fc")
+		)
+		(pin "A[0..15]" output
+			(at 115.57 41.91 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe71694f-6642-43e1-99c1-868ceb071129")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb"
+					(page "6")
 				)
 			)
 		)
