@@ -2035,6 +2035,12 @@
 		(uuid "16be5bcf-b580-4781-bdfa-5f4e6096c87f")
 	)
 	(junction
+		(at 146.05 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "465e37f2-2ff0-4d5b-b64e-de9b13f417c1")
+	)
+	(junction
 		(at 178.943 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2075,6 +2081,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2670ab7-1c17-40da-8c12-d3b895d2738d")
+	)
+	(junction
+		(at 73.66 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2a25de0-a60f-49e7-8147-88e5a6198356")
 	)
 	(junction
 		(at 172.085 92.71)
@@ -2424,6 +2436,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 123.19) (xy 165.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9ac742-1db4-4934-908d-276dd0d34d98")
+	)
+	(wire
+		(pts
 			(xy 179.07 82.55) (xy 182.88 82.55)
 		)
 		(stroke
@@ -2542,6 +2564,16 @@
 		)
 		(uuid "301ed052-94d6-400a-8054-94fd41902906")
 	)
+	(wire
+		(pts
+			(xy 146.05 123.19) (xy 146.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34fc6ddd-c895-4e55-a485-651b3cd021b9")
+	)
 	(bus
 		(pts
 			(xy 215.9 87.63) (xy 215.9 90.17)
@@ -2601,6 +2633,16 @@
 			(type default)
 		)
 		(uuid "45f8f337-81e3-44fd-bb18-263bf2c11cea")
+	)
+	(wire
+		(pts
+			(xy 147.32 123.19) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba5f7b9-ff7c-4186-9fe8-f7c1b9845a0e")
 	)
 	(wire
 		(pts
@@ -2714,6 +2756,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 133.35) (xy 148.59 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792d067c-0c6e-41ec-81cd-7e778fb6ae58")
+	)
+	(wire
+		(pts
 			(xy 208.28 85.09) (xy 213.36 85.09)
 		)
 		(stroke
@@ -2784,13 +2836,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 86.36) (xy 73.66 88.9)
+			(xy 73.66 76.2) (xy 73.66 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "83d9ff92-6779-4f1c-ba23-c4403aba6306")
+	)
+	(wire
+		(pts
+			(xy 77.47 78.74) (xy 73.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87821d71-9e66-47f9-841d-b492444ce95a")
 	)
 	(wire
 		(pts
@@ -2881,6 +2943,16 @@
 			(type default)
 		)
 		(uuid "9dc686f8-4daf-44fe-8d83-13026b239937")
+	)
+	(wire
+		(pts
+			(xy 146.05 123.19) (xy 144.78 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a478f3f9-8018-45bf-a155-000448e17095")
 	)
 	(bus
 		(pts
@@ -3062,6 +3134,16 @@
 		)
 		(uuid "d1d47a0c-d36c-48ba-9bf0-3e26da397f66")
 	)
+	(wire
+		(pts
+			(xy 73.66 78.74) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45cc4b0-c50e-4ec4-a0f6-6b3102c08e21")
+	)
 	(bus
 		(pts
 			(xy 176.53 67.31) (xy 176.53 69.85)
@@ -3201,6 +3283,26 @@
 			(type default)
 		)
 		(uuid "fa5cf0c6-96e4-4791-a954-58e5dfa8cb58")
+	)
+	(wire
+		(pts
+			(xy 165.1 107.95) (xy 165.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdaad51f-a986-494f-b30d-e49e3ca9bf02")
+	)
+	(wire
+		(pts
+			(xy 157.48 133.35) (xy 153.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd189ec-7396-449c-a4fd-2117aa7ea0db")
 	)
 	(wire
 		(pts
@@ -3462,6 +3564,16 @@
 		)
 		(uuid "f84c9817-9ddb-4ffe-bb2d-f119d7d4ed16")
 	)
+	(label "A7"
+		(at 85.09 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f986e80e-9c9f-4b7b-8aa7-8b82021c0dac")
+	)
 	(global_label "~{NMI}"
 		(shape input)
 		(at 164.465 90.17 180)
@@ -3596,7 +3708,7 @@
 	)
 	(global_label "~{RES}"
 		(shape input)
-		(at 73.66 86.36 90)
+		(at 73.66 76.2 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3606,7 +3718,7 @@
 		)
 		(uuid "4f1b1723-dfd3-4ab6-97e2-40cf58212871")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 79.7463 90)
+			(at 73.66 69.5863 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,6 +4142,82 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N914")
+		(at 151.13 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13b6b967-18a8-4074-81eb-a56f9611abaa")
+		(property "Reference" "D11"
+			(at 151.13 117.7036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N914"
+			(at 151.13 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal"
+			(at 151.13 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 151.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1N914FS-ND"
+			(at 151.13 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "481ebb14-343e-4f86-a824-5938e76b5686")
+		)
+		(pin "2"
+			(uuid "2520394e-5abd-427a-89a0-d9caeafe0404")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4744,6 +4932,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 157.48 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "477884a2-4745-430e-9155-e651ff511879")
+		(property "Reference" "#PWR0175"
+			(at 163.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.8742 133.223 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4391c0eb-b955-4771-babe-2951a78a7fa4")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
+					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N914")
 		(at 78.74 92.71 270)
 		(unit 1)
@@ -5384,6 +5637,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 151.13 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c62b107a-4ed4-4523-a619-a58ed48f3be5")
+		(property "Reference" "C23"
+			(at 151.1363 126.873 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 151.1363 129.413 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/860010372006.pdf"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "732-8598-1-ND"
+			(at 151.13 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcf00b25-569c-40c1-9d35-3105158b33e7")
+		)
+		(pin "2"
+			(uuid "e2da0568-6f18-47a9-85cb-c3b3ba6ccf9d")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N914")
 		(at 73.66 102.87 270)
 		(unit 1)
@@ -5695,6 +6025,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N914")
+		(at 81.28 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df4de60a-abd0-4c82-82a9-0a242b54255f")
+		(property "Reference" "D10"
+			(at 81.28 73.2536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N914"
+			(at 81.28 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal"
+			(at 81.28 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1N914FS-ND"
+			(at 81.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8458d1f0-949e-4216-8d7b-6a39b3d5effe")
+		)
+		(pin "2"
+			(uuid "3f0b6419-55f1-4db1-9adc-998f442e03da")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N914")
+		(at 140.97 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3861657-1d9e-40fc-9bc2-124023b8941d")
+		(property "Reference" "D12"
+			(at 140.97 117.7036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N914"
+			(at 140.97 120.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal"
+			(at 140.97 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "1N914FS-ND"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c3ee17f-858c-4510-9068-f2daa97636f8")
+		)
+		(pin "2"
+			(uuid "792b237b-376b-4a48-922a-b2d97ea331d7")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 178.943 99.441 0)
 		(unit 1)
@@ -5768,6 +6250,71 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 137.16 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb1b242b-61e7-42ba-868e-a5d4211f8de2")
+		(property "Reference" "#PWR0174"
+			(at 140.97 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 132.7658 122.809 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b18f5e7e-d6dd-4e17-8a0f-b3231156d8a4")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/1b81cb51-a21c-47a6-a425-f1e0ecc2ba52"
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
