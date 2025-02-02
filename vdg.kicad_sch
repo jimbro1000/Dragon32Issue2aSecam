@@ -2302,7 +2302,7 @@
 		)
 	)
 	(global_label "DA0"
-		(shape input)
+		(shape output)
 		(at 168.148 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2313,7 +2313,7 @@
 		)
 		(uuid "857f53d3-04f7-4f7c-8240-303adf8872f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.0403 64.6906 0)
+			(at 174.7013 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)

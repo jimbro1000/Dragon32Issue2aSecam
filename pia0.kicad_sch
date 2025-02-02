@@ -4529,6 +4529,12 @@
 		)
 	)
 	(junction
+		(at 184.785 151.511)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0741352d-8498-48f9-81ad-6cb82ae0785e")
+	)
+	(junction
 		(at 207.01 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4563,12 +4569,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39ea5f3e-cd04-44f8-93b0-3a42d9f04016")
-	)
-	(junction
-		(at 184.785 140.589)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d5dd595-489b-453d-b922-0cd0c902b835")
 	)
 	(junction
 		(at 91.44 43.18)
@@ -4631,28 +4631,22 @@
 		(uuid "b6378bc0-3150-430a-8842-634332431e87")
 	)
 	(junction
-		(at 184.785 151.511)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be2cd8f0-4b1a-4373-afc1-8a57b96d0c89")
-	)
-	(junction
 		(at 207.01 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf959c82-dc47-49a1-b522-f30fd4953661")
 	)
 	(junction
+		(at 184.783 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bffb996d-d424-4e4a-bc0a-e6b98bc433c1")
+	)
+	(junction
 		(at 81.28 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d363f798-a938-4f65-85af-711c6dee8a80")
-	)
-	(junction
-		(at 184.785 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d96d47a3-6257-4e8b-867a-251a3293242c")
 	)
 	(junction
 		(at 86.233 55.372)
@@ -4665,6 +4659,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcad78d1-4f28-4249-8e60-472caa4694c4")
+	)
+	(junction
+		(at 184.785 140.589)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e873c9d7-a0e1-4e4d-97ea-17569cae0630")
 	)
 	(no_connect
 		(at 217.17 81.28)
@@ -4886,7 +4886,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.038 146.05) (xy 184.785 146.05)
+			(xy 177.038 146.05) (xy 184.783 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5046,16 +5046,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.785 140.589) (xy 184.785 140.716)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57264138-5715-44ed-a106-f8970d11b921")
-	)
-	(wire
-		(pts
 			(xy 87.376 137.668) (xy 87.376 138.684)
 		)
 		(stroke
@@ -5136,13 +5126,13 @@
 	)
 	(wire
 		(pts
-			(xy 184.785 146.05) (xy 184.785 145.796)
+			(xy 184.783 146.05) (xy 205.359 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66202fb5-d490-479e-9777-4034fa7c501c")
+		(uuid "66180d5c-f21a-4230-b573-f48a36052ec9")
 	)
 	(bus
 		(pts
@@ -5234,16 +5224,6 @@
 		)
 		(uuid "7ace76e4-ee58-49f2-8979-a6361838020a")
 	)
-	(wire
-		(pts
-			(xy 184.785 146.431) (xy 184.785 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b6401d1-dcea-42dd-88d5-25e2b44b33c8")
-	)
 	(bus
 		(pts
 			(xy 34.29 41.91) (xy 34.29 44.45)
@@ -5304,6 +5284,16 @@
 		)
 		(uuid "86b9a648-1ee9-453a-828e-b076d0aec954")
 	)
+	(wire
+		(pts
+			(xy 184.783 146.05) (xy 184.785 146.431)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a431949-d6fb-4416-af7a-34498c6002a5")
+	)
 	(bus
 		(pts
 			(xy 34.29 52.07) (xy 34.29 54.61)
@@ -5353,6 +5343,16 @@
 			(type default)
 		)
 		(uuid "98662098-668a-4207-92fa-233165dcafcd")
+	)
+	(wire
+		(pts
+			(xy 184.785 145.669) (xy 184.783 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c06d78-a913-418a-9f58-b92e435b2261")
 	)
 	(wire
 		(pts
@@ -5633,16 +5633,6 @@
 			(type default)
 		)
 		(uuid "fca61faa-f008-41fa-a2bd-d304295d20a6")
-	)
-	(wire
-		(pts
-			(xy 184.785 146.05) (xy 205.359 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe06b6a3-ed80-4e68-8349-534a011041aa")
 	)
 	(wire
 		(pts
@@ -9491,13 +9481,13 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 248.92 143.51 270)
+		(at 248.92 143.51 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "60a096f9-2110-48c9-92ae-88edf8cd8e8f")
 		(property "Reference" "R53"
 			(at 248.92 137.541 90)
@@ -10640,7 +10630,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small_Filled")
-		(at 184.785 148.971 270)
+		(at 184.785 143.129 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10649,7 +10639,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ed31c35-5acc-4f06-860b-cf14f340ad65")
 		(property "Reference" "D9"
-			(at 186.817 147.7009 90)
+			(at 186.817 141.8589 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10658,7 +10648,7 @@
 			)
 		)
 		(property "Value" "1N914"
-			(at 186.817 150.2409 90)
+			(at 186.817 144.3989 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10667,7 +10657,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal"
-			(at 184.785 148.971 90)
+			(at 184.785 143.129 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,7 +10666,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 184.785 148.971 90)
+			(at 184.785 143.129 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10685,7 +10675,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.785 148.971 0)
+			(at 184.785 143.129 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10694,7 +10684,7 @@
 			)
 		)
 		(property "DigiKey" "1N914FS-ND"
-			(at 184.785 148.971 0)
+			(at 184.785 143.129 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12240,7 +12230,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small_Filled")
-		(at 184.785 143.256 270)
+		(at 184.785 148.971 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12249,7 +12239,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3537655-c2d7-4dfe-94ae-d1ea61ddc291")
 		(property "Reference" "D8"
-			(at 187.198 141.9859 90)
+			(at 187.198 147.7009 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12258,7 +12248,7 @@
 			)
 		)
 		(property "Value" "1N914"
-			(at 187.198 144.5259 90)
+			(at 187.198 150.2409 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12267,7 +12257,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P12.70mm_Horizontal"
-			(at 184.785 143.256 90)
+			(at 184.785 148.971 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12276,7 +12266,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 184.785 143.256 90)
+			(at 184.785 148.971 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12285,7 +12275,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.785 143.256 0)
+			(at 184.785 148.971 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12294,7 +12284,7 @@
 			)
 		)
 		(property "DigiKey" "1N914FS-ND"
-			(at 184.785 143.256 0)
+			(at 184.785 148.971 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12319,16 +12309,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 177.038 148.971 180)
+		(at 177.038 148.971 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e3d20ce8-6890-4757-9675-07b9f934c427")
 		(property "Reference" "R30"
-			(at 178.943 147.7009 0)
+			(at 178.943 150.2411 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12337,7 +12327,7 @@
 			)
 		)
 		(property "Value" "4K7"
-			(at 178.943 150.2409 0)
+			(at 178.943 147.7011 0)
 			(effects
 				(font
 					(size 1.27 1.27)
