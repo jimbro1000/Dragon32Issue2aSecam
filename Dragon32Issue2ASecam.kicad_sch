@@ -1081,6 +1081,28 @@
 		)
 		(uuid "e1fe37ce-3f09-48a6-8d41-8d1a68baa4a3")
 	)
+	(global_label "LUMA'2"
+		(shape input)
+		(at 33.02 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b0bccf4-88a8-46be-bc39-976a49776dad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.3219 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "U11"
 		(shape input)
 		(at 33.02 30.48 180)
