@@ -4591,6 +4591,163 @@
 				)
 			)
 		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -5095,6 +5252,333 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Q_NPN_EBC"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NPN_EBC"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN transistor, emitter/base/collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NPN_EBC_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NPN_EBC_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Potentiometer_Small"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Small"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Small_0_1"
+				(polyline
+					(pts
+						(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.762 1.8034)
+					(end -0.762 -1.8034)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0.9906)
+					(name "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -6262,6 +6746,102 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "power:-5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-5V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-5V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "-5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-5V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -7861,10 +8441,10 @@
 		(uuid "0293ccbb-ee57-482b-aea7-ac361902d596")
 	)
 	(junction
-		(at 332.74 118.11)
+		(at 383.54 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0305666d-e1dc-495e-a620-f343d2de6911")
+		(uuid "07fee511-1391-4f70-8fa2-8b742894f2c6")
 	)
 	(junction
 		(at 179.07 132.08)
@@ -7879,7 +8459,7 @@
 		(uuid "13339b6d-eb44-448d-ae7e-2e4d20415ba0")
 	)
 	(junction
-		(at 332.74 102.87)
+		(at 411.48 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "183616fd-817b-4448-810d-ed2cbc7eb0e6")
@@ -7903,13 +8483,13 @@
 		(uuid "216683b1-a028-4777-a7f6-a93159fc6b81")
 	)
 	(junction
-		(at 306.07 102.87)
+		(at 384.81 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "252dcaf9-6458-43ff-b6fa-e52ebef7fef4")
 	)
 	(junction
-		(at 313.69 102.87)
+		(at 392.43 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2819340f-1c37-46eb-a3af-32283760dc46")
@@ -7969,6 +8549,12 @@
 		(uuid "7150a676-c5b6-4cf6-beee-15a35e24e6e0")
 	)
 	(junction
+		(at 411.48 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73007f6c-c5e6-440e-913f-31878b4a0cd1")
+	)
+	(junction
 		(at 138.43 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8023,7 +8609,7 @@
 		(uuid "b8b3a655-8d70-460a-aa4b-e5e5fb7b7a91")
 	)
 	(junction
-		(at 313.69 93.98)
+		(at 392.43 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b943f8ea-16d6-4722-817e-9d31c22dd3b8")
@@ -8041,10 +8627,22 @@
 		(uuid "c3be702e-36dc-48f8-8538-92d68b2d723c")
 	)
 	(junction
+		(at 411.48 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d315867c-e3eb-4979-b4b6-f0379ed5bc3b")
+	)
+	(junction
 		(at 175.387 131.699)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0afbe1a-9b4e-4b32-9759-ca1368735653")
+	)
+	(junction
+		(at 384.81 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5c2ded7-3fc3-4ad4-8ce1-4493e0511c5c")
 	)
 	(junction
 		(at 138.43 22.86)
@@ -8065,7 +8663,7 @@
 		(uuid "1a55144a-6040-4c05-8d7e-c9c7bc94a9fd")
 	)
 	(no_connect
-		(at 340.36 68.58)
+		(at 336.55 34.29)
 		(uuid "1b259409-0383-4683-a7db-2c3e45fc341b")
 	)
 	(no_connect
@@ -8073,7 +8671,7 @@
 		(uuid "276b1d08-b4f4-48b4-9c62-957bea4314b2")
 	)
 	(no_connect
-		(at 340.36 93.98)
+		(at 419.1 78.74)
 		(uuid "38e97e5f-dd8d-4209-b6e5-2fd50948a569")
 	)
 	(no_connect
@@ -8121,7 +8719,7 @@
 		(uuid "d8f3e696-db23-401b-b62c-77e7fdd8f6e2")
 	)
 	(no_connect
-		(at 347.98 80.01)
+		(at 426.72 64.77)
 		(uuid "ec6c47e7-8167-4f2b-b853-bd558815ae3c")
 	)
 	(no_connect
@@ -8160,6 +8758,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 71.12) (xy 383.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07dfc7f7-da16-40b5-8d16-002be084fbd6")
+	)
+	(wire
+		(pts
 			(xy 132.334 125.603) (xy 132.334 120.777)
 		)
 		(stroke
@@ -8167,6 +8775,26 @@
 			(type default)
 		)
 		(uuid "094ffc70-5fd6-4d27-9dd9-3cb7f2f3170e")
+	)
+	(wire
+		(pts
+			(xy 383.54 81.28) (xy 375.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a538df1-d82d-4b47-8c85-3436e6ede9dc")
+	)
+	(wire
+		(pts
+			(xy 383.54 78.74) (xy 386.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b079090-1a07-45a2-b412-a065be921a8d")
 	)
 	(wire
 		(pts
@@ -8200,13 +8828,23 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 102.87) (xy 307.34 102.87)
+			(xy 384.81 87.63) (xy 386.08 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f020783-b16d-42ca-b0ed-7715825f0304")
+	)
+	(wire
+		(pts
+			(xy 383.54 78.74) (xy 383.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f45fd01-a632-44c2-bf94-2fccf703dcf2")
 	)
 	(wire
 		(pts
@@ -8227,6 +8865,26 @@
 			(type default)
 		)
 		(uuid "11af47db-bc64-4189-8c4d-4a8d5cf939bc")
+	)
+	(wire
+		(pts
+			(xy 375.92 118.11) (xy 375.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "122422b0-b363-45df-b83f-a8cd4892b059")
+	)
+	(wire
+		(pts
+			(xy 412.75 102.87) (xy 411.48 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f1e833-74be-4084-ae4b-addf3db6c465")
 	)
 	(wire
 		(pts
@@ -8327,6 +8985,26 @@
 			(type default)
 		)
 		(uuid "1d5e3e3b-5caf-4d8a-bbde-a8ddbc56b5d0")
+	)
+	(wire
+		(pts
+			(xy 384.81 97.79) (xy 384.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d60b990-10ad-4597-8a2d-27b6c5a34ede")
+	)
+	(wire
+		(pts
+			(xy 396.24 102.87) (xy 392.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8251b0-a469-497a-b8ba-1cf4c5a8f895")
 	)
 	(wire
 		(pts
@@ -8440,6 +9118,16 @@
 	)
 	(wire
 		(pts
+			(xy 414.02 185.42) (xy 411.48 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf0f635-929a-48b3-b4db-b1e10f5eb08f")
+	)
+	(wire
+		(pts
 			(xy 34.1496 40.64) (xy 27.94 40.6377)
 		)
 		(stroke
@@ -8457,6 +9145,16 @@
 			(type default)
 		)
 		(uuid "2eb965c7-b38c-47c6-b5a4-fa5c6fd00902")
+	)
+	(wire
+		(pts
+			(xy 372.11 118.11) (xy 375.92 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3f7777-afa6-4ad7-b9e8-c68c60302c03")
 	)
 	(wire
 		(pts
@@ -8480,7 +9178,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 102.87) (xy 332.74 90.17)
+			(xy 411.48 87.63) (xy 411.48 74.93)
 		)
 		(stroke
 			(width 0)
@@ -8550,6 +9248,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 113.03) (xy 372.11 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f147e29-8831-44ad-bc37-497cc66a3149")
+	)
+	(wire
+		(pts
 			(xy 43.18 137.033) (xy 46.228 137.033)
 		)
 		(stroke
@@ -8590,7 +9298,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 93.98) (xy 313.69 93.98)
+			(xy 391.16 78.74) (xy 392.43 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8610,6 +9318,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 78.74) (xy 375.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ee4fde-073a-4763-a1b3-34230be230a8")
+	)
+	(wire
+		(pts
 			(xy 79.756 60.579) (xy 83.312 60.579)
 		)
 		(stroke
@@ -8620,7 +9338,17 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 64.77) (xy 323.85 64.77)
+			(xy 373.38 87.63) (xy 373.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c0568b-2cd6-4363-80e1-1207d4189f36")
+	)
+	(wire
+		(pts
+			(xy 317.5 30.48) (xy 320.04 30.48)
 		)
 		(stroke
 			(width 0)
@@ -8680,7 +9408,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 130.81) (xy 327.66 130.81)
+			(xy 422.91 115.57) (xy 416.56 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8700,7 +9428,17 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 64.77) (xy 347.98 64.77)
+			(xy 365.76 160.02) (xy 363.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f079940-4cfa-4afc-a32d-5ecd0b1ffabd")
+	)
+	(wire
+		(pts
+			(xy 346.71 30.48) (xy 344.17 30.48)
 		)
 		(stroke
 			(width 0)
@@ -8730,7 +9468,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 102.87) (xy 327.66 102.87)
+			(xy 403.86 87.63) (xy 406.4 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8810,7 +9548,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 110.49) (xy 306.07 109.22)
+			(xy 384.81 95.25) (xy 384.81 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8827,6 +9565,16 @@
 			(type default)
 		)
 		(uuid "679d1d61-e3e3-454f-8c45-9fef158458c8")
+	)
+	(wire
+		(pts
+			(xy 382.27 71.12) (xy 383.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b4b908-20a2-4c42-9179-7760c328052a")
 	)
 	(wire
 		(pts
@@ -8870,7 +9618,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 64.77) (xy 316.23 64.77)
+			(xy 311.15 30.48) (xy 312.42 30.48)
 		)
 		(stroke
 			(width 0)
@@ -8970,7 +9718,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 110.49) (xy 306.07 110.49)
+			(xy 382.27 95.25) (xy 384.81 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8980,7 +9728,17 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 93.98) (xy 307.34 93.98)
+			(xy 377.19 87.63) (xy 373.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e7049ef-c722-490a-81ed-8bc53bb483af")
+	)
+	(wire
+		(pts
+			(xy 382.27 78.74) (xy 383.54 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9020,16 +9778,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 102.87) (xy 332.74 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88558180-f95c-455a-8ef8-1f8a3f238665")
-	)
-	(wire
-		(pts
 			(xy 156.591 139.446) (xy 156.591 134.239)
 		)
 		(stroke
@@ -9060,6 +9808,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 74.93) (xy 396.24 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900b9464-6c80-463b-800d-2056e87fa69a")
+	)
+	(wire
+		(pts
 			(xy 129.54 128.143) (xy 132.334 128.143)
 		)
 		(stroke
@@ -9080,7 +9838,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 93.98) (xy 313.69 86.36)
+			(xy 392.43 78.74) (xy 392.43 71.12)
 		)
 		(stroke
 			(width 0)
@@ -9160,7 +9918,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 64.77) (xy 332.74 64.77)
+			(xy 325.12 30.48) (xy 328.93 30.48)
 		)
 		(stroke
 			(width 0)
@@ -9180,7 +9938,17 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 102.87) (xy 313.69 102.87)
+			(xy 411.48 185.42) (xy 411.48 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02ee04b-ca66-4a31-89d4-e2456c111559")
+	)
+	(wire
+		(pts
+			(xy 391.16 87.63) (xy 392.43 87.63)
 		)
 		(stroke
 			(width 0)
@@ -9240,7 +10008,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 104.14) (xy 306.07 102.87)
+			(xy 384.81 88.9) (xy 384.81 87.63)
 		)
 		(stroke
 			(width 0)
@@ -9270,7 +10038,17 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 93.98) (xy 313.69 102.87)
+			(xy 373.38 81.28) (xy 360.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7d5cdc-a06f-4b9d-a659-3ecfae728b71")
+	)
+	(wire
+		(pts
+			(xy 392.43 78.74) (xy 392.43 87.63)
 		)
 		(stroke
 			(width 0)
@@ -9280,7 +10058,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 102.87) (xy 306.07 102.87)
+			(xy 382.27 87.63) (xy 384.81 87.63)
 		)
 		(stroke
 			(width 0)
@@ -9320,7 +10098,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 130.81) (xy 332.74 118.11)
+			(xy 411.48 87.63) (xy 411.48 102.87)
 		)
 		(stroke
 			(width 0)
@@ -9380,6 +10158,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 107.95) (xy 379.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc37973d-bf38-4685-96af-ac7ff2371b5a")
+	)
+	(wire
+		(pts
 			(xy 208.5315 132.0724) (xy 201.93 132.08)
 		)
 		(stroke
@@ -9387,6 +10175,16 @@
 			(type default)
 		)
 		(uuid "bc7aa3d8-9970-42a6-8532-b2cd55ec9a98")
+	)
+	(wire
+		(pts
+			(xy 377.19 78.74) (xy 375.92 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7c9c7c-1ed4-4085-93c2-c62d6a0fac49")
 	)
 	(wire
 		(pts
@@ -9407,6 +10205,16 @@
 			(type default)
 		)
 		(uuid "be5c6ffd-f0b9-4bae-9c9f-5a12080a80b0")
+	)
+	(wire
+		(pts
+			(xy 372.11 95.25) (xy 377.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6e83cd-2d37-4a67-9ee7-529f5897b571")
 	)
 	(wire
 		(pts
@@ -9480,7 +10288,17 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 102.87) (xy 314.96 102.87)
+			(xy 414.02 193.04) (xy 411.48 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe7c9f0-7a25-47f4-bd4e-1a98437f2fd8")
+	)
+	(wire
+		(pts
+			(xy 392.43 87.63) (xy 393.7 87.63)
 		)
 		(stroke
 			(width 0)
@@ -9680,6 +10498,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 74.93) (xy 396.24 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7522ccc-1705-44d0-8d85-e0e8ee774eee")
+	)
+	(wire
+		(pts
 			(xy 55.354 108.2219) (xy 53.848 108.2219)
 		)
 		(stroke
@@ -9697,6 +10525,16 @@
 			(type default)
 		)
 		(uuid "e91bea83-4da5-49dd-a75d-28c336039408")
+	)
+	(wire
+		(pts
+			(xy 411.48 102.87) (xy 411.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef3768ac-a84d-4e62-82a1-814667f309b3")
 	)
 	(wire
 		(pts
@@ -9747,6 +10585,16 @@
 			(type default)
 		)
 		(uuid "f593ead8-42f3-4a09-ab7e-76edd3b83e6f")
+	)
+	(wire
+		(pts
+			(xy 411.48 193.04) (xy 408.94 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5dfbd39-b2b9-470e-9b9d-0027413f4213")
 	)
 	(wire
 		(pts
@@ -9905,7 +10753,7 @@
 		(uuid "11631892-0f25-412c-9a58-70cf90c50ba2")
 	)
 	(label "u2"
-		(at 325.12 102.87 0)
+		(at 403.86 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9985,7 +10833,7 @@
 		(uuid "40a87c91-c9fb-41b7-b9da-7439e6370c3b")
 	)
 	(label "u4"
-		(at 314.96 102.87 180)
+		(at 393.7 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10025,7 +10873,7 @@
 		(uuid "52762d4d-9044-44c4-a285-287b0ea6fc1a")
 	)
 	(label "u5"
-		(at 388.62 100.33 180)
+		(at 358.14 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10033,6 +10881,16 @@
 			(justify right bottom)
 		)
 		(uuid "5e0a4d81-d893-49b6-b2a0-b5b99de776d3")
+	)
+	(label "u10"
+		(at 370.84 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c590af1-02cb-4dc0-aff1-a728e3e0710e")
 	)
 	(label "u9"
 		(at 232.41 100.33 180)
@@ -10055,7 +10913,7 @@
 		(uuid "9d248b46-9a0f-448d-ad28-77bea12d1c79")
 	)
 	(label "C1"
-		(at 363.22 116.84 0)
+		(at 406.4 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10065,12 +10923,12 @@
 		(uuid "a2f93d15-6c94-4def-ae5d-ed9bfc5d3d49")
 	)
 	(label "u6"
-		(at 321.31 130.81 0)
+		(at 422.91 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a6cfb501-93d7-4e7d-8d6c-2be8141b0c11")
 	)
@@ -10105,12 +10963,12 @@
 		(uuid "bc461450-4ff3-4c18-a7ec-7d09386fd749")
 	)
 	(label "u9"
-		(at 332.74 130.81 0)
+		(at 411.48 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cff58a35-b943-4cbb-8860-f8b00981077d")
 	)
@@ -10125,7 +10983,7 @@
 		(uuid "e2e6aeb2-6289-417f-bc76-718b89ec94dd")
 	)
 	(label "u3"
-		(at 374.65 100.33 180)
+		(at 344.17 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10267,6 +11125,28 @@
 		(uuid "225278ba-d974-4a06-8440-1943cf701bac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 271.3786 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LUMA'"
+		(shape input)
+		(at 398.78 212.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e4dc0d0-89a8-41e7-81bd-8bcf5029b645")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 398.78 203.6014 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,6 +11464,28 @@
 			)
 		)
 	)
+	(global_label "U11"
+		(shape output)
+		(at 396.24 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfe03ffd-527f-4f4c-ac47-b04961756e59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 402.9747 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "74xx:74LS32")
 		(at 147.32 123.317 0)
@@ -10697,6 +11599,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 360.68 229.87 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00fce414-ff7d-4069-9f0a-a9820a006a52")
+		(property "Reference" "R87"
+			(at 360.68 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 360.68 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 360.68 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 360.68 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbf1f99d-d927-4826-a5d5-146383dd6b34")
+		)
+		(pin "2"
+			(uuid "c2ac0d07-516f-4d44-b1c9-e7a68f17f2b2")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.591 117.602 0)
 		(mirror x)
@@ -10765,7 +11744,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 360.68 116.84 90)
+		(at 403.86 148.59 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10774,7 +11753,7 @@
 		(dnp no)
 		(uuid "02ba9169-ad32-45c5-874a-bb981853e549")
 		(property "Reference" "R86"
-			(at 360.68 111.76 90)
+			(at 403.86 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10782,7 +11761,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 360.68 114.3 90)
+			(at 403.86 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10790,7 +11769,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 360.68 116.84 0)
+			(at 403.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10799,7 +11778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 116.84 0)
+			(at 403.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10808,7 +11787,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 360.68 116.84 0)
+			(at 403.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10817,7 +11796,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT15K0CT-ND"
-			(at 360.68 116.84 0)
+			(at 403.86 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11106,7 +12085,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 318.77 64.77 270)
+		(at 314.96 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11115,7 +12094,7 @@
 		(fields_autoplaced yes)
 		(uuid "06802f83-4d5e-45c3-a9fb-8fa7c1573cbf")
 		(property "Reference" "R100"
-			(at 318.77 58.928 90)
+			(at 314.96 24.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11123,7 +12102,7 @@
 			)
 		)
 		(property "Value" "6K5"
-			(at 318.77 61.468 90)
+			(at 314.96 27.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11131,7 +12110,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 318.77 64.77 0)
+			(at 314.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,7 +12119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 318.77 64.77 0)
+			(at 314.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11149,7 +12128,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 318.77 64.77 0)
+			(at 314.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11158,7 +12137,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT15K0CT-ND"
-			(at 318.77 64.77 0)
+			(at 314.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11249,8 +12228,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 322.58 118.11 0)
-		(mirror y)
+		(at 422.91 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11259,7 +12237,7 @@
 		(fields_autoplaced yes)
 		(uuid "099f39f6-a1de-4f91-b156-1ad794c51a0b")
 		(property "Reference" "#PWR0182"
-			(at 322.58 124.46 0)
+			(at 422.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11268,7 +12246,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 322.58 123.19 0)
+			(at 422.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11276,7 +12254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 322.58 118.11 0)
+			(at 422.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11285,7 +12263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 118.11 0)
+			(at 422.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11294,7 +12272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 118.11 0)
+			(at 422.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11316,7 +12294,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 300.99 102.87 270)
+		(at 379.73 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11325,7 +12303,7 @@
 		(fields_autoplaced yes)
 		(uuid "09bfc7b4-1a5c-46a4-b9fc-d57734a3dac3")
 		(property "Reference" "R77"
-			(at 300.99 97.028 90)
+			(at 379.73 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11333,7 +12311,7 @@
 			)
 		)
 		(property "Value" "1200uH"
-			(at 300.99 99.568 90)
+			(at 379.73 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11341,7 +12319,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 300.99 102.87 0)
+			(at 379.73 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,7 +12328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 300.99 102.87 0)
+			(at 379.73 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11359,7 +12337,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 300.99 102.87 0)
+			(at 379.73 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11368,7 +12346,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT15K0CT-ND"
-			(at 300.99 102.87 0)
+			(at 379.73 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,6 +12364,156 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
 					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 382.27 107.95 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b2ba097-5019-4be6-9c85-e22e81fcbc93")
+		(property "Reference" "R81"
+			(at 382.27 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 382.27 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 382.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 382.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 382.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c617f1ff-18f4-40a0-bf9e-566e2cc39804")
+		)
+		(pin "2"
+			(uuid "35fd9566-6434-4209-aa84-fbcf5dd8c81a")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_EBC")
+		(at 387.35 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bc28380-7277-4d87-985e-7efe07833c6f")
+		(property "Reference" "TR3"
+			(at 382.27 104.1401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC238B"
+			(at 382.27 101.6001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 382.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 387.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2cc5b72-5211-4c56-8aa4-28f0eeab7700")
+		)
+		(pin "3"
+			(uuid "21ed51ea-9935-47f3-8f1f-f75ee0bb2f0e")
+		)
+		(pin "2"
+			(uuid "13dd4656-3c47-49d5-8e83-b5b8dc4b911f")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "TR3")
 					(unit 1)
 				)
 			)
@@ -11639,33 +12767,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 391.16 100.33 90)
-		(mirror x)
+		(lib_id "power:-5V")
+		(at 398.78 227.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "11e71683-421d-4e42-be96-b9082f215b0d")
-		(property "Reference" "L5"
-			(at 391.1219 93.091 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3uH"
-			(at 391.1219 95.631 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_THT:L_Axial_L9.5mm_D4.0mm_P15.24mm_Horizontal_Fastron_SMCC"
-			(at 391.16 98.552 90)
+		(uuid "1014fe1f-752e-4405-a362-2c363588a9db")
+		(property "Reference" "#PWR0188"
+			(at 398.78 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11673,8 +12784,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 391.16 100.33 0)
+		(property "Value" "-5V"
+			(at 398.78 234.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11683,7 +12812,149 @@
 			)
 		)
 		(property "Description" ""
-			(at 391.16 100.33 0)
+			(at 398.78 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34f6fb6f-fe8f-4335-b2e0-9ac96bc47a73")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 364.49 95.25 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10c27968-44fb-4e37-8c1b-1576cf009096")
+		(property "Reference" "R79"
+			(at 364.49 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 364.49 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 364.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 364.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 364.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd02864d-db9e-4ed7-a27b-778e8954a61a")
+		)
+		(pin "2"
+			(uuid "44bbf8d9-d317-4627-84e1-0e0b817394f0")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 360.68 160.02 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11e71683-421d-4e42-be96-b9082f215b0d")
+		(property "Reference" "L5"
+			(at 360.6419 152.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 360.6419 155.321 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_THT:L_Axial_L9.5mm_D4.0mm_P15.24mm_Horizontal_Fastron_SMCC"
+			(at 360.68 158.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11692,7 +12963,7 @@
 			)
 		)
 		(property "DigiKey" "495-5561-1-ND"
-			(at 391.16 100.33 0)
+			(at 360.68 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11840,7 +13111,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 322.58 102.87 90)
+		(at 401.32 87.63 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11849,7 +13120,7 @@
 		(dnp no)
 		(uuid "1321ef35-1032-44a2-96cb-a4a43441dace")
 		(property "Reference" "C73"
-			(at 324.612 97.028 90)
+			(at 403.352 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11858,7 +13129,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 325.628 99.568 90)
+			(at 404.368 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11867,7 +13138,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
-			(at 322.58 102.87 0)
+			(at 401.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11876,7 +13147,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
-			(at 322.58 102.87 0)
+			(at 401.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11885,7 +13156,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 102.87 0)
+			(at 401.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11894,7 +13165,7 @@
 			)
 		)
 		(property "DigiKey" "BC1016CT-ND"
-			(at 322.58 102.87 0)
+			(at 401.32 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12231,7 +13502,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 403.86 100.33 270)
+		(at 408.94 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12240,7 +13511,7 @@
 		(fields_autoplaced yes)
 		(uuid "27ff1b6e-d972-4297-a5bc-f0b49b038d54")
 		(property "Reference" "R97"
-			(at 403.86 94.488 90)
+			(at 408.94 161.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12248,7 +13519,7 @@
 			)
 		)
 		(property "Value" "270R"
-			(at 403.86 97.028 90)
+			(at 408.94 164.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12256,7 +13527,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 403.86 100.33 0)
+			(at 408.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12265,7 +13536,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 403.86 100.33 0)
+			(at 408.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12274,7 +13545,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 403.86 100.33 0)
+			(at 408.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12283,7 +13554,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT15K0CT-ND"
-			(at 403.86 100.33 0)
+			(at 408.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12301,6 +13572,156 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
 					(reference "R97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 373.38 214.63 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "280b5f10-3034-40d6-acec-d3daf747b084")
+		(property "Reference" "R88"
+			(at 373.38 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 373.38 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 373.38 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 373.38 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4951c810-274b-4bc1-b9a8-6ab50bf3e144")
+		)
+		(pin "2"
+			(uuid "538ff9fc-02dd-4c6d-9137-e7b07ee8c489")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_EBC")
+		(at 396.24 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "294ffc88-c5cf-4c4a-9650-dbd87b48057d")
+		(property "Reference" "TR4"
+			(at 401.32 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC238B"
+			(at 401.32 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 401.32 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 396.24 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 396.24 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c8617b3-9a49-4417-acd0-205345b4d358")
+		)
+		(pin "3"
+			(uuid "ea11b70f-6bd6-4848-92e7-3f2c36ba43a5")
+		)
+		(pin "2"
+			(uuid "891436c4-f675-4c1a-9894-08262fae2751")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "TR4")
 					(unit 1)
 				)
 			)
@@ -12481,7 +13902,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 309.88 102.87 270)
+		(at 388.62 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12490,7 +13911,7 @@
 		(fields_autoplaced yes)
 		(uuid "2eecdafb-875a-49cd-a065-909e0f7fdbd9")
 		(property "Reference" "R95"
-			(at 309.88 97.028 90)
+			(at 388.62 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12498,7 +13919,7 @@
 			)
 		)
 		(property "Value" "470uH"
-			(at 309.88 99.568 90)
+			(at 388.62 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12506,7 +13927,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 309.88 102.87 0)
+			(at 388.62 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12515,7 +13936,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 309.88 102.87 0)
+			(at 388.62 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12524,7 +13945,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 309.88 102.87 0)
+			(at 388.62 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12533,7 +13954,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 309.88 102.87 0)
+			(at 388.62 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12933,6 +14354,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 406.4 193.04 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37e25c55-036b-410f-a92b-11b487da2e47")
+		(property "Reference" "C78"
+			(at 406.9461 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 406.9461 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+			(at 406.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/860010372006.pdf"
+			(at 406.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 406.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "732-8598-1-ND"
+			(at 406.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1ada3e0-e1e7-4bcf-9f1d-4a7e5141d108")
+		)
+		(pin "2"
+			(uuid "6e41bfcb-168d-42a7-96e1-a1e69329d14f")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS390")
 		(at 158.369 94.615 180)
 		(unit 1)
@@ -13114,6 +14613,83 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
 					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 372.11 115.57 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39de28c5-6a87-4431-8d44-0e434de7b3cc")
+		(property "Reference" "R82"
+			(at 367.03 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 369.57 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 372.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 372.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79763e01-5217-4bd3-90a0-03c7632d2806")
+		)
+		(pin "2"
+			(uuid "cbd971ee-3403-4d8d-9f50-2149ff62944a")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -13327,6 +14903,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 373.38 222.25 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43e0b756-b516-46d8-a94c-9389478f53b1")
+		(property "Reference" "R89"
+			(at 373.38 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 373.38 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 373.38 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 373.38 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee29d315-06ec-48a7-99f7-4ee1d5031a84")
+		)
+		(pin "2"
+			(uuid "ec355ca0-b553-4a5e-9cab-c524f439f507")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.591 147.066 0)
 		(mirror y)
@@ -13395,7 +15048,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 309.88 93.98 90)
+		(at 388.62 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13404,7 +15057,7 @@
 		(fields_autoplaced yes)
 		(uuid "45721b25-918a-4b4d-9fae-88354f9bacc5")
 		(property "Reference" "R93"
-			(at 309.88 88.9 90)
+			(at 388.62 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,7 +15065,7 @@
 			)
 		)
 		(property "Value" "6K5"
-			(at 309.88 91.44 90)
+			(at 388.62 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13420,7 +15073,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 309.88 93.98 0)
+			(at 388.62 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13429,7 +15082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 309.88 93.98 0)
+			(at 388.62 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13438,7 +15091,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 309.88 93.98 0)
+			(at 388.62 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13447,7 +15100,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT15K0CT-ND"
-			(at 309.88 93.98 0)
+			(at 388.62 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13465,6 +15118,83 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
 					(reference "R93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 379.73 78.74 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45f09b8a-ad23-494d-b7ea-ae79f8df6dc3")
+		(property "Reference" "R80"
+			(at 379.73 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 379.73 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 379.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 379.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 379.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 379.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42e8b453-d340-46d0-8269-07d64b40e512")
+		)
+		(pin "2"
+			(uuid "ecd66754-fdc8-4479-b39c-e4802da0c41c")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -13584,6 +15314,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 372.11 107.95 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a6a03e2-3607-4f00-bef8-bdbb86ef3c5f")
+		(property "Reference" "VR1"
+			(at 369.57 109.2201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 369.57 106.6801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
+			(at 372.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 372.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9f4e9c05-b981-4907-94f1-b681c0bc0a15")
+		)
+		(pin "1"
+			(uuid "164314e4-1328-45a1-8a23-8f617e66f92b")
+		)
+		(pin "2"
+			(uuid "6045ee44-0e4f-4501-8c5a-1ac437497a8d")
+		)
+		(instances
+			(project ""
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "VR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 242.57 24.13 270)
 		(unit 1)
@@ -13653,7 +15456,7 @@
 	(symbol
 		(lib_name "vdg:TOKO_Variable_Inductor")
 		(lib_id "vdg:TOKO_Variable_Inductor")
-		(at 340.36 83.82 0)
+		(at 419.1 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13662,7 +15465,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ef06a30-d63b-4cf3-88f7-53e12ada3642")
 		(property "Reference" "L6"
-			(at 340.36 74.93 0)
+			(at 419.1 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13670,7 +15473,7 @@
 			)
 		)
 		(property "Value" "10.7MHz"
-			(at 340.36 77.47 0)
+			(at 419.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13678,7 +15481,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:TOKO_RCL_10K"
-			(at 340.36 83.82 0)
+			(at 419.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13687,7 +15490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 83.82 0)
+			(at 419.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,7 +15499,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 340.36 83.82 0)
+			(at 419.1 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13954,6 +15757,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 360.68 222.25 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5224599b-b20e-4fdb-b117-328c985102c0")
+		(property "Reference" "R84"
+			(at 360.68 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 360.68 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 360.68 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a32ad380-d9f2-42ca-8156-24a9ad3027c7")
+		)
+		(pin "2"
+			(uuid "347dc2f3-afdb-434d-92c9-2fe5276a4ba3")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 148.59 20.32 180)
 		(unit 1)
@@ -14098,6 +15978,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-5V")
+		(at 403.86 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "533a16be-e3bb-47af-8d9a-f50143af9f0d")
+		(property "Reference" "#PWR0189"
+			(at 401.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 396.748 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 403.86 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b172c1fd-60c2-4d9f-8952-331d45679803")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS00")
 		(at 37.338 101.6 0)
 		(mirror y)
@@ -14212,7 +16158,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 318.77 130.81 270)
+		(at 425.45 115.57 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14221,7 +16168,7 @@
 		(fields_autoplaced yes)
 		(uuid "53b35784-0abd-4044-987c-12305b0c858c")
 		(property "Reference" "R99"
-			(at 318.77 124.968 90)
+			(at 425.45 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14229,7 +16176,7 @@
 			)
 		)
 		(property "Value" "1K6"
-			(at 318.77 127.508 90)
+			(at 425.45 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14237,7 +16184,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 318.77 130.81 0)
+			(at 425.45 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14246,7 +16193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 318.77 130.81 0)
+			(at 425.45 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14255,7 +16202,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 318.77 130.81 0)
+			(at 425.45 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14264,7 +16211,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT15K0CT-ND"
-			(at 318.77 130.81 0)
+			(at 425.45 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14282,6 +16229,83 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
 					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 360.68 199.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "582026df-10cf-4c2d-99e1-edcafc2b603b")
+		(property "Reference" "R76"
+			(at 360.68 193.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1200uH"
+			(at 360.68 196.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 360.68 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 360.68 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7caaafe-1ee8-4d82-b13a-246f96fe2caf")
+		)
+		(pin "2"
+			(uuid "6586ab96-d422-418c-8be4-46d8143c1643")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -14355,7 +16379,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 332.74 58.42 0)
+		(at 328.93 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14364,7 +16388,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d0ce4ce-e2b7-4491-bf39-193c86bc7a95")
 		(property "Reference" "#PWR0179"
-			(at 332.74 64.77 0)
+			(at 328.93 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14373,7 +16397,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 332.74 63.5 0)
+			(at 328.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14381,7 +16405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 58.42 0)
+			(at 328.93 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14390,7 +16414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 58.42 0)
+			(at 328.93 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14399,7 +16423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 332.74 58.42 0)
+			(at 328.93 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14422,7 +16446,7 @@
 	(symbol
 		(lib_name "vdg:TOKO_Variable_Inductor")
 		(lib_id "vdg:TOKO_Variable_Inductor")
-		(at 340.36 58.42 0)
+		(at 336.55 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14431,7 +16455,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d53b325-3052-4c58-97d6-57fbf989e06b")
 		(property "Reference" "L7"
-			(at 340.36 49.53 0)
+			(at 336.55 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14439,7 +16463,7 @@
 			)
 		)
 		(property "Value" "10.7MHz"
-			(at 340.36 52.07 0)
+			(at 336.55 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14447,7 +16471,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:TOKO_RCL_10K"
-			(at 340.36 58.42 0)
+			(at 336.55 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14456,7 +16480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 340.36 58.42 0)
+			(at 336.55 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14465,7 +16489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 340.36 58.42 0)
+			(at 336.55 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14571,7 +16595,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 306.07 106.68 0)
+		(at 384.81 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14579,7 +16603,7 @@
 		(dnp no)
 		(uuid "63693f61-5323-4a8e-8701-646e12ff315a")
 		(property "Reference" "C98"
-			(at 309.372 105.4162 0)
+			(at 388.112 90.1762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14588,7 +16612,7 @@
 			)
 		)
 		(property "Value" "33nF"
-			(at 309.372 107.9562 0)
+			(at 388.112 92.7162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14597,7 +16621,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 306.07 106.68 0)
+			(at 384.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14606,7 +16630,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
-			(at 306.07 106.68 0)
+			(at 384.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14615,7 +16639,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 306.07 106.68 0)
+			(at 384.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14624,7 +16648,7 @@
 			)
 		)
 		(property "DigiKey" "BC1016CT-ND"
-			(at 306.07 106.68 0)
+			(at 384.81 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14642,6 +16666,164 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
 					(reference "C98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 368.3 160.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67685d8e-bb41-4dfd-a738-54e11ca3cf7d")
+		(property "Reference" "C70"
+			(at 370.332 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100pF"
+			(at 371.348 156.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 368.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C316C101J5G5TA7303"
+			(at 368.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C316C101J5G5TA7303CT-ND"
+			(at 368.3 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f69254a-1f5c-429f-a227-0f9150b6cafa")
+		)
+		(pin "2"
+			(uuid "dadadd20-584a-4796-9dea-930adb467152")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 369.57 95.25 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "690b9571-8463-4c92-b178-5d83bf5d9d65")
+		(property "Reference" "C61"
+			(at 371.602 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100pF"
+			(at 372.618 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 369.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C316C101J5G5TA7303"
+			(at 369.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C316C101J5G5TA7303CT-ND"
+			(at 369.57 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "878c076c-1093-486e-bbdb-93c396e0e331")
+		)
+		(pin "2"
+			(uuid "8b84cd8c-120d-4b9a-84c8-fa16af0300e4")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -14709,72 +16891,6 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
 					(reference "#PWR0170")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 252.73 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dbf5256-4f49-4d11-b04b-94dc353734ac")
-		(property "Reference" "#PWR0135"
-			(at 252.73 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 58.801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26076b79-79b5-48f2-855e-eef3cb48abf5")
-		)
-		(instances
-			(project "Dragon32Issue2ASecam"
-				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
-					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -15114,35 +17230,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 355.6 116.84 270)
-		(mirror x)
+		(lib_id "power:+5V")
+		(at 391.16 217.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "79ba87ac-e43e-4056-bf15-75cc30a56de9")
-		(property "Reference" "C67"
-			(at 357.632 110.998 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100pF"
-			(at 358.648 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 355.6 116.84 0)
+		(fields_autoplaced yes)
+		(uuid "759736e8-b115-4918-87a7-78ba4f1934c4")
+		(property "Reference" "#PWR0190"
+			(at 394.97 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15150,8 +17248,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C316C101J5G5TA7303"
-			(at 355.6 116.84 0)
+		(property "Value" "+5V"
+			(at 387.35 217.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15160,7 +17276,74 @@
 			)
 		)
 		(property "Description" ""
-			(at 355.6 116.84 0)
+			(at 391.16 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "886f51ee-1d78-48a9-af81-e62acc189ce8")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 398.78 148.59 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79ba87ac-e43e-4056-bf15-75cc30a56de9")
+		(property "Reference" "C67"
+			(at 400.812 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100pF"
+			(at 401.828 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 398.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C316C101J5G5TA7303"
+			(at 398.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 398.78 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15169,7 +17352,7 @@
 			)
 		)
 		(property "DigiKey" "399-C316C101J5G5TA7303CT-ND"
-			(at 355.6 116.84 0)
+			(at 398.78 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15786,6 +17969,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 398.78 224.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d946f1e-12ef-4f5c-b8ec-a3e6b8e9d895")
+		(property "Reference" "R75"
+			(at 403.86 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 401.32 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 398.78 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 398.78 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 398.78 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17c4ccef-5fe9-4170-ae6b-41d40a06ca8e")
+		)
+		(pin "2"
+			(uuid "29f4a9e4-dadd-405f-9ada-8d6a37606daf")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 259.08 20.32 180)
 		(unit 1)
@@ -16063,7 +18323,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 316.23 130.81 0)
+		(at 427.99 115.57 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16072,7 +18333,7 @@
 		(fields_autoplaced yes)
 		(uuid "91d8c596-855d-492f-a31b-c5c07268f570")
 		(property "Reference" "#PWR0181"
-			(at 316.23 137.16 0)
+			(at 427.99 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16081,7 +18342,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 316.23 135.89 0)
+			(at 427.99 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16089,7 +18350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 316.23 130.81 0)
+			(at 427.99 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16098,7 +18359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 130.81 0)
+			(at 427.99 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16107,7 +18368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 316.23 130.81 0)
+			(at 427.99 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16129,7 +18390,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 330.2 118.11 90)
+		(at 415.29 102.87 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16137,7 +18399,7 @@
 		(dnp no)
 		(uuid "9218aa1f-5af8-4704-82cf-0167b3b18a24")
 		(property "Reference" "C75"
-			(at 328.168 112.268 90)
+			(at 417.322 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16146,7 +18408,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 327.152 114.554 90)
+			(at 418.338 99.314 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16155,7 +18417,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 330.2 118.11 0)
+			(at 415.29 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16164,7 +18426,7 @@
 			)
 		)
 		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C316C101J5G5TA7303"
-			(at 330.2 118.11 0)
+			(at 415.29 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16173,7 +18435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 330.2 118.11 0)
+			(at 415.29 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16182,7 +18444,7 @@
 			)
 		)
 		(property "DigiKey" "399-C316C101J5G5TA7303CT-ND"
-			(at 330.2 118.11 0)
+			(at 415.29 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16288,6 +18550,85 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 349.25 175.26 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9482cbff-ce5d-4a37-965d-9c2eb13f551b")
+		(property "Reference" "C77"
+			(at 351.282 169.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100pF"
+			(at 352.298 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 349.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C316C101J5G5TA7303"
+			(at 349.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C316C101J5G5TA7303CT-ND"
+			(at 349.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "826289b1-b4ce-4506-be5f-627da0e6afca")
+		)
+		(pin "2"
+			(uuid "8dea6c27-a7e9-4cb7-8203-9ca9d65cec98")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -16515,6 +18856,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 416.56 193.04 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a42762a-61e9-4d1c-b793-c4ad32d7653c")
+		(property "Reference" "R85"
+			(at 416.56 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 416.56 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 416.56 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 416.56 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 416.56 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 416.56 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94600239-4573-42c8-9558-d5a8cd5303eb")
+		)
+		(pin "2"
+			(uuid "2fb5f940-0c67-452a-b20d-556890c4a86a")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS00")
 		(at 69.088 133.223 0)
 		(unit 2)
@@ -16693,8 +19111,241 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 365.76 229.87 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a04d7710-a1e4-45c9-a492-d25bbe0991bc")
+		(property "Reference" "C68"
+			(at 363.728 235.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 362.712 233.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+			(at 365.76 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
+			(at 365.76 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "BC1016CT-ND"
+			(at 365.76 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bf512ec-27bb-440e-b6cf-63c9f9b66162")
+		)
+		(pin "2"
+			(uuid "e2654c44-99c9-4c92-9b6a-8886a979631d")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 349.25 199.39 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a054ec0e-09ef-4e4f-a884-3d56c5031672")
+		(property "Reference" "R78"
+			(at 349.25 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 349.25 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 349.25 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 349.25 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 349.25 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbc5a5ff-b9e5-4ed8-b860-e3c494263e78")
+		)
+		(pin "2"
+			(uuid "b09618df-d3fb-4c21-909d-334da8d27b96")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 416.56 185.42 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0f5f831-f457-4150-a4fb-2e02ce436624")
+		(property "Reference" "R90"
+			(at 416.56 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 416.56 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 416.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 416.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 416.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 416.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a680116c-2eab-4be9-baae-a629bc957de3")
+		)
+		(pin "2"
+			(uuid "95b3eb6b-b297-4c7e-b48c-bf33f699512e")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 308.61 86.36 270)
+		(at 392.43 66.04 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16704,7 +19355,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1e878f5-5122-49a7-8142-5d462723f27b")
 		(property "Reference" "#PWR0184"
-			(at 302.26 86.36 0)
+			(at 392.43 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16713,7 +19364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 304.8 86.3599 90)
+			(at 392.4301 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16722,7 +19373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 86.36 0)
+			(at 392.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16731,7 +19382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 86.36 0)
+			(at 392.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16740,7 +19391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 308.61 86.36 0)
+			(at 392.43 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17100,7 +19751,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 377.19 100.33 270)
+		(at 346.71 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17109,7 +19760,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab2385e8-30d5-4dc7-919a-b077620c3d57")
 		(property "Reference" "R94"
-			(at 377.19 94.488 90)
+			(at 346.71 154.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17117,7 +19768,7 @@
 			)
 		)
 		(property "Value" "1K6"
-			(at 377.19 97.028 90)
+			(at 346.71 156.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17125,7 +19776,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 377.19 100.33 0)
+			(at 346.71 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17134,7 +19785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 377.19 100.33 0)
+			(at 346.71 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17143,7 +19794,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 377.19 100.33 0)
+			(at 346.71 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17152,7 +19803,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT15K0CT-ND"
-			(at 377.19 100.33 0)
+			(at 346.71 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17604,8 +20255,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 325.12 118.11 90)
-		(mirror x)
+		(at 420.37 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17614,7 +20264,7 @@
 		(fields_autoplaced yes)
 		(uuid "b76b6bb5-ef03-414a-a0e6-71aceb9fc2c5")
 		(property "Reference" "R91"
-			(at 325.12 112.268 90)
+			(at 420.37 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17622,7 +20272,7 @@
 			)
 		)
 		(property "Value" "6K5"
-			(at 325.12 114.808 90)
+			(at 420.37 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17630,7 +20280,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 325.12 118.11 0)
+			(at 420.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17639,7 +20289,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 325.12 118.11 0)
+			(at 420.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17648,7 +20298,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 325.12 118.11 0)
+			(at 420.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17657,7 +20307,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT15K0CT-ND"
-			(at 325.12 118.11 0)
+			(at 420.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17760,7 +20410,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 326.39 64.77 270)
+		(at 322.58 30.48 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17769,7 +20419,7 @@
 		(dnp no)
 		(uuid "bb80a251-8e02-48a9-a28f-9a30f20eb07e")
 		(property "Reference" "C76"
-			(at 328.422 58.928 90)
+			(at 324.612 24.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17778,7 +20428,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 329.438 61.214 90)
+			(at 325.628 26.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17787,7 +20437,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 326.39 64.77 0)
+			(at 322.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17796,7 +20446,7 @@
 			)
 		)
 		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C316C101J5G5TA7303"
-			(at 326.39 64.77 0)
+			(at 322.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17805,7 +20455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 326.39 64.77 0)
+			(at 322.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17814,7 +20464,7 @@
 			)
 		)
 		(property "DigiKey" "399-C316C101J5G5TA7303CT-ND"
-			(at 326.39 64.77 0)
+			(at 322.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17839,7 +20489,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 347.98 83.82 90)
+		(at 426.72 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17847,7 +20497,7 @@
 		(dnp no)
 		(uuid "bda8d72b-eb71-4aa5-ba24-b3e6c66325ff")
 		(property "Reference" "#PWR0163"
-			(at 354.33 83.82 0)
+			(at 433.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17856,7 +20506,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 353.06 83.82 90)
+			(at 431.8 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17864,7 +20514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 83.82 0)
+			(at 426.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17873,7 +20523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 83.82 0)
+			(at 426.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17882,7 +20532,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 347.98 83.82 0)
+			(at 426.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17897,6 +20547,85 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
 					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 361.95 240.03 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bde11d1a-3d09-42ec-90e2-085870c0efb0")
+		(property "Reference" "C69"
+			(at 359.918 245.872 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 358.902 243.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
+			(at 361.95 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
+			(at 361.95 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "BC1016CT-ND"
+			(at 361.95 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "120ee00e-e935-4629-b77b-3d043506f7c9")
+		)
+		(pin "2"
+			(uuid "8ca30d3f-17c7-4790-822f-57ae65536dcf")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -17984,7 +20713,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 379.73 100.33 0)
+		(at 349.25 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17993,7 +20722,7 @@
 		(fields_autoplaced yes)
 		(uuid "c113ce19-7c96-4a3a-ae18-3f0d9f4d141e")
 		(property "Reference" "#PWR0180"
-			(at 379.73 106.68 0)
+			(at 349.25 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18002,7 +20731,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 379.73 105.41 0)
+			(at 349.25 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18010,7 +20739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.73 100.33 0)
+			(at 349.25 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18019,7 +20748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.73 100.33 0)
+			(at 349.25 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18028,7 +20757,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 379.73 100.33 0)
+			(at 349.25 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18050,7 +20779,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 347.98 90.17 270)
+		(at 426.72 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18059,7 +20788,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1ac6d8d-716c-44e1-87c9-fe852fc1c019")
 		(property "Reference" "#PWR0142"
-			(at 344.17 90.17 0)
+			(at 422.91 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18068,7 +20797,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 351.79 90.1699 90)
+			(at 430.53 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18077,7 +20806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 90.17 0)
+			(at 426.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18086,7 +20815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 90.17 0)
+			(at 426.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18095,7 +20824,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 347.98 90.17 0)
+			(at 426.72 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18230,7 +20959,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 330.2 102.87 90)
+		(at 408.94 87.63 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18239,7 +20968,7 @@
 		(dnp no)
 		(uuid "c3f50a6b-63ae-4546-af38-0738856bf38c")
 		(property "Reference" "C72"
-			(at 328.168 108.712 90)
+			(at 406.908 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18248,7 +20977,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 327.152 106.426 90)
+			(at 405.892 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18257,7 +20986,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 330.2 102.87 0)
+			(at 408.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18266,7 +20995,7 @@
 			)
 		)
 		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C316C101J5G5TA7303"
-			(at 330.2 102.87 0)
+			(at 408.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18275,7 +21004,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 330.2 102.87 0)
+			(at 408.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18284,7 +21013,7 @@
 			)
 		)
 		(property "DigiKey" "399-C316C101J5G5TA7303CT-ND"
-			(at 330.2 102.87 0)
+			(at 408.94 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18308,33 +21037,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 317.5 102.87 270)
+		(lib_id "power:-5V")
+		(at 252.73 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c79e034c-8482-42fa-94dd-6b85d1fc3f26")
-		(property "Reference" "R92"
-			(at 317.5 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6K5"
-			(at 317.5 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 317.5 102.87 0)
+		(uuid "c5d054fe-dd0d-46bd-b58e-b33b465f4622")
+		(property "Reference" "#PWR0192"
+			(at 252.73 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18342,8 +21054,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 317.5 102.87 0)
+		(property "Value" "-5V"
+			(at 252.73 60.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18352,7 +21082,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 317.5 102.87 0)
+			(at 252.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91c02920-9444-411b-8456-ca9077be08ef")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 396.24 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c79e034c-8482-42fa-94dd-6b85d1fc3f26")
+		(property "Reference" "R92"
+			(at 396.24 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6K5"
+			(at 396.24 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 396.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 396.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 396.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18361,7 +21156,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT15K0CT-ND"
-			(at 317.5 102.87 0)
+			(at 396.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18463,7 +21258,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 353.06 64.77 90)
+		(at 349.25 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18472,7 +21267,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb22869b-583e-4d99-9390-3aae62eef928")
 		(property "Reference" "R98"
-			(at 353.06 59.69 90)
+			(at 349.25 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18480,7 +21275,7 @@
 			)
 		)
 		(property "Value" "470uH"
-			(at 353.06 62.23 90)
+			(at 349.25 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18488,7 +21283,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 353.06 64.77 0)
+			(at 349.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18497,7 +21292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 353.06 64.77 0)
+			(at 349.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18506,7 +21301,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 353.06 64.77 0)
+			(at 349.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18515,7 +21310,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 353.06 64.77 0)
+			(at 349.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18845,7 +21640,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 300.99 110.49 90)
+		(at 379.73 95.25 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18854,7 +21649,7 @@
 		(dnp no)
 		(uuid "d44203a2-8122-4950-9c4e-b89d0b2885b2")
 		(property "Reference" "L4"
-			(at 300.99 105.664 90)
+			(at 379.73 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18862,7 +21657,7 @@
 			)
 		)
 		(property "Value" "22uH"
-			(at 300.99 107.442 90)
+			(at 379.73 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18870,7 +21665,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_THT:L_Axial_L9.5mm_D4.0mm_P15.24mm_Horizontal_Fastron_SMCC"
-			(at 300.99 108.712 90)
+			(at 379.73 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18879,7 +21674,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 300.99 110.49 0)
+			(at 379.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18888,7 +21683,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 300.99 110.49 0)
+			(at 379.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18897,7 +21692,7 @@
 			)
 		)
 		(property "DigiKey" "495-5561-1-ND"
-			(at 300.99 110.49 0)
+			(at 379.73 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18922,7 +21717,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 314.96 64.77 0)
+		(at 311.15 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18931,7 +21726,7 @@
 		(fields_autoplaced yes)
 		(uuid "d72e0c92-8148-431f-b1dc-c06ec715976b")
 		(property "Reference" "#PWR0183"
-			(at 314.96 71.12 0)
+			(at 311.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18940,7 +21735,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 314.96 69.85 0)
+			(at 311.15 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18948,7 +21743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 64.77 0)
+			(at 311.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18957,7 +21752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 64.77 0)
+			(at 311.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18966,7 +21761,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 314.96 64.77 0)
+			(at 311.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19205,6 +22000,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 360.68 214.63 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dad91d87-1814-4d92-a11e-4a6f998bc123")
+		(property "Reference" "R83"
+			(at 360.68 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 360.68 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
+			(at 360.68 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 360.68 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 360.68 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "CF14JT15K0CT-ND"
+			(at 360.68 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fd6eef8-6f11-48e2-9c3e-258c4c9f88b4")
+		)
+		(pin "2"
+			(uuid "36cdf37f-6ce4-4dae-b8c2-054b4b6cbe76")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 182.88 67.31 180)
 		(unit 1)
@@ -19344,6 +22216,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NPN_EBC")
+		(at 355.6 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de798fae-8e7f-4e5a-b053-9ad7ef660364")
+		(property "Reference" "TR2"
+			(at 355.6 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BC238B"
+			(at 355.6 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+			(at 358.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 355.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b38f9ff-5bcc-4971-9084-65fafcb07839")
+		)
+		(pin "3"
+			(uuid "e70d35d6-c0eb-4b95-b92a-ae15f483e795")
+		)
+		(pin "2"
+			(uuid "a8e9c0e7-19a8-4535-8468-9d8e89cbbfee")
+		)
+		(instances
+			(project ""
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "TR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS86")
 		(at 124.46 52.07 0)
 		(unit 1)
@@ -19458,7 +22401,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 332.74 83.82 0)
+		(at 411.48 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19466,7 +22409,7 @@
 		(dnp no)
 		(uuid "e33ceb43-680a-4d17-b9b9-09c5df8de02d")
 		(property "Reference" "#PWR0178"
-			(at 332.74 90.17 0)
+			(at 411.48 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19475,7 +22418,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 332.74 88.9 0)
+			(at 411.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19483,7 +22426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 83.82 0)
+			(at 411.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19492,7 +22435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 83.82 0)
+			(at 411.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19501,7 +22444,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 332.74 83.82 0)
+			(at 411.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19856,7 +22799,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 347.98 58.42 0)
+		(at 344.17 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19865,7 +22808,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea49a628-35bd-42e1-8d38-eb1487e8851e")
 		(property "Reference" "#PWR0177"
-			(at 347.98 64.77 0)
+			(at 344.17 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19874,7 +22817,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 347.98 63.5 0)
+			(at 344.17 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19882,7 +22825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 58.42 0)
+			(at 344.17 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19891,7 +22834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 58.42 0)
+			(at 344.17 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19900,7 +22843,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 347.98 58.42 0)
+			(at 344.17 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20101,7 +23044,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 330.2 130.81 90)
+		(at 414.02 115.57 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20109,7 +23053,7 @@
 		(dnp no)
 		(uuid "efc20716-c238-4f49-a385-5b773aefcb12")
 		(property "Reference" "C71"
-			(at 328.168 125.73 90)
+			(at 416.052 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20118,7 +23062,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 327.152 128.016 90)
+			(at 417.068 112.776 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20127,7 +23071,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
-			(at 330.2 130.81 0)
+			(at 414.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20136,7 +23080,7 @@
 			)
 		)
 		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C316C101J5G5TA7303"
-			(at 330.2 130.81 0)
+			(at 414.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20145,7 +23089,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 330.2 130.81 0)
+			(at 414.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20154,7 +23098,7 @@
 			)
 		)
 		(property "DigiKey" "399-C316C101J5G5TA7303CT-ND"
-			(at 330.2 130.81 0)
+			(at 414.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20172,6 +23116,72 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
 					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 351.79 199.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eff213ac-d77e-4ef5-bd10-0c8572cc61ac")
+		(property "Reference" "#PWR0135"
+			(at 351.79 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 351.79 206.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be43b825-b423-4747-81e8-c4bae94b8d32")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -20609,8 +23619,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 311.15 86.36 90)
-		(mirror x)
+		(at 392.43 68.58 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20618,7 +23628,7 @@
 		(dnp no)
 		(uuid "fb155da7-78c6-4511-b3ae-7bec80e165e8")
 		(property "Reference" "C74"
-			(at 313.182 80.518 90)
+			(at 398.272 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20627,7 +23637,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 314.198 83.058 90)
+			(at 395.732 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20636,7 +23646,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
-			(at 311.15 86.36 0)
+			(at 392.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20645,7 +23655,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/45171/kseries.pdf"
-			(at 311.15 86.36 0)
+			(at 392.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20654,7 +23664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 311.15 86.36 0)
+			(at 392.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20663,7 +23673,7 @@
 			)
 		)
 		(property "DigiKey" "BC1016CT-ND"
-			(at 311.15 86.36 0)
+			(at 392.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20999,7 +24009,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 300.99 93.98 270)
+		(at 379.73 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21007,7 +24017,7 @@
 		(dnp no)
 		(uuid "fd2e5189-eb54-4b9a-94d6-fb430722be7a")
 		(property "Reference" "R96"
-			(at 300.99 88.9 90)
+			(at 379.73 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21015,7 +24025,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 300.99 91.44 90)
+			(at 379.73 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21023,7 +24033,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 300.99 93.98 0)
+			(at 379.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21032,7 +24042,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 300.99 93.98 0)
+			(at 379.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21041,7 +24051,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 300.99 93.98 0)
+			(at 379.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21050,7 +24060,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT15K0CT-ND"
-			(at 300.99 93.98 0)
+			(at 379.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
