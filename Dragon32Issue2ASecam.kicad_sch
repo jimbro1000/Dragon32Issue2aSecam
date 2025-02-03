@@ -1103,6 +1103,28 @@
 			)
 		)
 	)
+	(global_label "phiB"
+		(shape input)
+		(at 33.02 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f546b7a-5bb0-4384-b84d-fd022508b0c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.862 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SOUND"
 		(shape input)
 		(at 33.02 33.02 180)
@@ -1116,6 +1138,28 @@
 		(uuid "604b797e-110c-4dd8-9bff-7addd1c501d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 24.2974 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "phiA"
+		(shape input)
+		(at 33.02 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a756d4da-89c6-45f8-b758-9ea29095b6bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.0434 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
