@@ -8725,10 +8725,6 @@
 		(uuid "276b1d08-b4f4-48b4-9c62-957bea4314b2")
 	)
 	(no_connect
-		(at 262.89 33.02)
-		(uuid "34ea384d-db58-44bc-b51a-555b771f2a60")
-	)
-	(no_connect
 		(at 419.1 78.74)
 		(uuid "38e97e5f-dd8d-4209-b6e5-2fd50948a569")
 	)
@@ -11399,6 +11395,16 @@
 			(justify right bottom)
 		)
 		(uuid "622488a6-d55c-4b61-99ce-966eda6b2b5f")
+	)
+	(label "u5"
+		(at 262.89 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6535fa6f-bdf1-4779-85c0-79e7d410ea72")
 	)
 	(label "u10"
 		(at 370.84 160.02 0)
