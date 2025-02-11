@@ -4292,7 +4292,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.536 95.25) (xy 225.552 95.25)
+			(xy 224.536 95.25) (xy 226.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4452,7 +4452,7 @@
 	)
 	(wire
 		(pts
-			(xy 230.632 95.25) (xy 234.95 95.25)
+			(xy 231.14 95.25) (xy 234.95 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5182,7 +5182,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.872 118.872) (xy 241.554 118.872)
+			(xy 245.872 118.872) (xy 241.4701 118.872)
 		)
 		(stroke
 			(width 0)
@@ -10154,7 +10154,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 228.092 95.25 90)
+		(at 228.6 95.25 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10163,7 +10163,7 @@
 		(dnp no)
 		(uuid "35fe4eb7-9dd7-4870-853a-09b2a30f3c46")
 		(property "Reference" "R37"
-			(at 228.092 93.218 90)
+			(at 228.6 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10171,7 @@
 			)
 		)
 		(property "Value" "1K5"
-			(at 228.092 95.25 90)
+			(at 228.6 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10179,7 +10179,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 228.092 95.25 0)
+			(at 228.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10188,7 +10188,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.092 95.25 0)
+			(at 228.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10197,7 +10197,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.092 95.25 0)
+			(at 228.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +10206,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT1K50CT-ND"
-			(at 228.092 95.25 0)
+			(at 228.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12692,7 +12692,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 239.014 118.872 270)
+		(at 238.9301 118.872 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12700,7 +12700,7 @@
 		(dnp no)
 		(uuid "824608f9-3459-498d-a3bf-9e88e5a071c7")
 		(property "Reference" "R12"
-			(at 239.014 116.586 90)
+			(at 238.9301 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12708,7 +12708,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 239.014 118.872 90)
+			(at 238.9301 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12716,7 +12716,7 @@
 			)
 		)
 		(property "Footprint" "Dragon:R_Axial_DIN0309_L9.0mm_D2.5mm_P12.70mm_Horizontal"
-			(at 239.014 118.872 0)
+			(at 238.9301 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12725,7 +12725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 239.014 118.872 0)
+			(at 238.9301 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12734,7 +12734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 239.014 118.872 0)
+			(at 238.9301 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12743,7 +12743,7 @@
 			)
 		)
 		(property "DigiKey" "CF14JT22R0CT-ND"
-			(at 239.014 118.872 0)
+			(at 238.9301 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)

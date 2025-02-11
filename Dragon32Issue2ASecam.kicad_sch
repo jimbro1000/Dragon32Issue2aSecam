@@ -1103,7 +1103,7 @@
 			)
 		)
 	)
-	(global_label "U11"
+	(global_label "Composite"
 		(shape input)
 		(at 33.02 30.48 180)
 		(fields_autoplaced yes)
@@ -1115,7 +1115,7 @@
 		)
 		(uuid "2b4229fd-cc50-4c19-b0c8-9a3e7f2aa4f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2853 30.48 0)
+			(at 20.1773 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
