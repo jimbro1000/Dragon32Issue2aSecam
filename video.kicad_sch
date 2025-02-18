@@ -8639,6 +8639,12 @@
 		(uuid "97891482-a8d3-49df-9b72-373da89f9163")
 	)
 	(junction
+		(at 349.25 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e936a55-3dac-4dfc-bacf-6df71b83194e")
+	)
+	(junction
 		(at 346.71 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10883,6 +10889,16 @@
 			(type default)
 		)
 		(uuid "c6339bab-ad2c-4c18-83df-a53b32b45ecb")
+	)
+	(wire
+		(pts
+			(xy 347.98 60.96) (xy 349.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d58904-b798-4aef-beee-45e7d44d632a")
 	)
 	(wire
 		(pts
@@ -16467,7 +16483,6 @@
 		)
 	)
 	(symbol
-		(lib_name "vdg:TOKO_Variable_Inductor")
 		(lib_id "vdg:TOKO_Variable_Inductor")
 		(at 384.81 58.42 0)
 		(unit 1)
@@ -17182,6 +17197,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 350.52 77.47 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57c7b675-98fc-420c-856f-ad8adb6fe7bf")
+		(property "Reference" "#PWR0196"
+			(at 350.52 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 350.52 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 350.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96bf5fcd-9f03-47b3-a6a3-f82578e6f445")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 344.17 44.45 270)
 		(unit 1)
@@ -17392,7 +17474,6 @@
 		)
 	)
 	(symbol
-		(lib_name "vdg:TOKO_Variable_Inductor")
 		(lib_id "vdg:TOKO_Variable_Inductor")
 		(at 384.81 -16.51 0)
 		(mirror y)
@@ -24930,6 +25011,73 @@
 			(project "Dragon32Issue2ASecam"
 				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
 					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 347.98 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc96c0d1-6771-41c1-94c9-decaac5b9b11")
+		(property "Reference" "#PWR0197"
+			(at 351.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 344.17 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 347.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "411741d2-16b6-4f1c-beea-fa0e71ac89d3")
+		)
+		(instances
+			(project "Dragon32Issue2ASecam"
+				(path "/e3d9e4a2-26cb-4482-98c1-138d9a22d1eb/abc062f3-c6ab-4360-94b7-a88968b74324"
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
